@@ -1,0 +1,187 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	font-family: "Poppins", sans-serif;
+
+}
+
+/* header */
+/* Tornando o pai relativo e declarando largura de 100% da página*/
+header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+    width: 100%;
+	background-image: url(backimg.png);
+	padding: 8%;
+	box-sizing: border-box;
+}
+
+
+
+div .logo{
+	margin-left: 1%;
+    margin-top: 10%;
+}
+
+
+.logo img{
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	width: 20%;
+}
+
+
+.fraseVerao{
+	bottom: 50px;
+	left: 80px;
+}
+
+.fraseVerao p{
+	border: 8px, solid, black;
+	color: black;
+	font-size: 30px;
+	font-style: italic;
+	-webkit-text-stroke-width: 2px;
+}
+
+/* Menu com 3 opções */
+.menu2{
+	margin: 2%;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(80, 80, 80);;
+	padding-top: 20px;
+}
+
+.menu2 span{
+	padding-left: 80px;
+	text-align: center;
+}
+
+div a{
+	text-decoration: none;
+}
+
+/* Imagens das peças com legenda e preços */
+.row{
+	border-radius: 10px;
+	box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+	padding: 40px;
+	margin: 10px;
+	width: 400px;
+	transition: all 0.3s ease-out;
+	background-color: rgb(236, 199, 204);
+}
+
+.row:hover{
+	transform: translateY(-20px);
+}
+
+.fileiras{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 60px;
+}
+
+.fileiras img{
+	max-width: 100%;
+}
+
+.fileiras > p > p{
+	padding-left: 400px;
+	text-align: right;
+}
+
+.botao{
+	display: inline-block;
+	text-align: center;
+	font-weight: 400;
+	font-size: 15px;
+	white-space: nowrap;
+	vertical-align: middle;
+	padding: 0.375rem 0.75rem;
+	border-radius: 0.25rem;
+	margin-left: 70%;
+}
+
+.botao2{
+	display: inline-block;
+	text-align: center;
+	font-weight: 400;
+	font-size: 15px;
+	white-space: nowrap;
+	vertical-align: middle;
+	padding: 0.375rem 0.75rem;
+	border-radius: 0.25rem;
+	margin-left: 60%;
+}
+
+.botao-comprar{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    padding-top: 4em;
+    padding-bottom: 20px;
+	font-size: 15px;
+	margin-top: 20%;
+}
+
+footer h2, footer p, footer a, footer span {
+   color: #d1d1d1;
+}
+
+footer h2{
+    font-weight: 400;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    padding-top: 50px;
+}
+
+footer li{
+    list-style: none;
+    margin: 20px;
+}
+
+.footer-box{
+    width: 30%;;
+    float: left;
+	padding-left: 40px;
+}
+
+footer .wrapper::after{
+    clear:both;
+    content:"";
+    display: block;
+}
+
+.footer-list img{
+	width: 6%;
+	padding-right: 10px;
+}
+
+.company-footer{
+    width: 70%;
+}
+
+.company-footer img{
+	padding-left: 4px;
+	width: 70%;
+}
+
+.footer-bottom{
+	padding-left: 40px;
+}
